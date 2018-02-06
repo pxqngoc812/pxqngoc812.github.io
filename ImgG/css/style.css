@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	background-color: #0099ff;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	color: grey;
+}
+
+a {
+	text-decoration: none;
+	color: white;	
+}
+
+img {
+	max-width: 100%;
+}
+
+#menu img {
+	max-height: 500px;
+}
+
+#menu a {
+	font-size: 20px;
+	margin: 50px;
+	margin-bottom: 50px;	
+}
+
+#imgs img {
+	width: 33%;
+	padding: 2%;
+	margin: 1px;
+	float: left;
+}
+
+#gallery {
+	max-width: 1000px;
+	margin: auto;
+}
+
+#imgs img {
+	border: 1px solid white;
+}
+
+#imgs img:hover {
+	outline: 2px solid black;
+}

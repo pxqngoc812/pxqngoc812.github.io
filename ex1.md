@@ -54,3 +54,42 @@ Giờ hãy làm lại như những bước trên và bạn sẽ thấy các cả
 * Mở file ex1 bằng trình chỉnh sửa văn bản và thay đổi hoặc xoá một vài phần ngẫu nhiên. Thử chạy nó và xem điều gì sẽ xảy ra.
 * In thêm 5  chữ hoặc dòng chữ phức tạp hơn "Hello world".
 * Chạy thử "man 3 puts" và tìm hiểu thêm về các hàm tương tự.
+
+# Tham khảo về phần giải các bài tập thêm
+* Mở file ex1 bằng trình chỉnh sửa văn bản và thay đổi hoặc xoá một vài phần ngẫu nhiên. Thử chạy nó và xem điều gì sẽ xảy ra.\
+ Chúng ta sẽ thay đổi file ex1 như sau:\
+>```c
+> #include<stdio.h>
+> int main(int argc, char *argv[])
+> {  
+>   put("Hello world.");  
+>   return 0;
+> }
+ Khi biên dịch, sẽ xuất hiện lỗi: 
+> ex1.c: In function 'main':\
+> ex1.c.4:error: 'put' was not declared in this scope
+
+* In thêm 5  chữ hoặc dòng chữ phức tạp hơn "Hello world":\
+Ví dụ như sau:
+>```c
+> #include<stdio.h>
+> int main(int argc, char *argv[])
+> {  
+>   puts("Hello world.");
+>   puts("Learn C the hard way");
+>   puts("Zed Shaw")  
+>   return 0;
+> }
+
+* Chạy thử "man 3 puts" và tìm hiểu thêm về các hàm tương tự:\
+Các bạn có thể làm như sau:
+> ```c
+> #include <stdio.h>
+> int main() {
+>    int puts(const char *s);
+>    printf("%d", puts);
+>    int putchar(int c);
+>    printf("%d", putchar);
+>    return 0;
+> }
+ Bạn có thể tự google các hàm tương tự như hàm "man 2 write", "man 3 scanf"...

@@ -1,11 +1,12 @@
 * {
 	box-sizing: border-box;
-	background-color: #0099ff;
 }
 
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #558C89;
+
 }
 
 a:hover {
@@ -14,7 +15,6 @@ a:hover {
 
 a {
 	text-decoration: none;
-	color: white;	
 }
 
 img {
@@ -26,13 +26,14 @@ img {
 }
 
 #menu a {
-	font-size: 20px;
+	font-size: 13px;
 	margin: 50px;
-	margin-bottom: 50px;	
+	margin-bottom: 50px;
+	color: #ECECEA;
 }
 
 #imgs img {
-	width: 33%;
+	width: 100%;
 	padding: 2%;
 	margin: 1px;
 	float: left;
@@ -43,10 +44,37 @@ img {
 	margin: auto;
 }
 
-#imgs img {
-	border: 1px solid white;
+#top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;	
+	max-width: 50px;
+	max-height: 50px;
 }
 
-#imgs img:hover {
-	outline: 2px solid black;
+#content #menu {
+	max-width: 10%;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+#content #imgs {
+	max-width: 90%;
+	float: left;
+}
+
+#banner img {
+	max-width: 100%;
+	float: right;
+	padding-bottom: 20px;
+}
+
+.row .images {
+	max-width: 33.333333%;
+	float: left;
+}
+
+.row {
+	width: 100%;
 }

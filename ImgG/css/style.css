@@ -21,6 +21,10 @@ img {
 	max-width: 100%;
 }
 
+#content {
+	position: relative;
+}
+
 #menu img {
 	max-height: 500px;
 }
@@ -28,8 +32,8 @@ img {
 #menu a {
 	font-size: 13px;
 	margin: 50px;
-	margin-bottom: 50px;
 	color: #ECECEA;
+	border-left: 3px solid orange;	 
 }
 
 #imgs img {
@@ -53,21 +57,21 @@ img {
 }
 
 #content #menu {
-	max-width: 10%;
-	display: block;
+	max-width: 40px;
 	position: relative;
 	float: left;
 }
 
 #content #imgs {
 	max-width: 90%;
-	float: left;
+	float: right;
 }
 
 #banner img {
 	max-width: 100%;
 	float: right;
 	padding-bottom: 20px;
+	position: relative;
 }
 
 .row .images {

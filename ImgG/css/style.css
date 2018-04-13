@@ -58,7 +58,7 @@ img {
 
 #content #menu {
 	max-width: 40px;
-	position: relative;
+	position: absolute;
 	float: left;
 }
 

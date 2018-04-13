@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+	float: left;
+}
+
+@keyframes example {
+	0% {
+		background-color: #FF0000;
+		color: white;
+	}
+	25% {
+		background-color: #0000FF;
+		color: white;
+	}
+	50% {
+		background-color: #008000;
+		color: white;
+	}
+	75% {
+		background-color: #FFFF00;
+		color: white;
+	}
+	100% {
+		background-color: #FF0000;
+		color: white;
+	}
+}
+
+@keyframes cre {
+	0% {
+		transform: translateX(0px);
+		opacity: 0.8;
+	}
+	25% {
+		transform: translateX(120px);
+		opacity: 0;
+	}
+	50% {
+		transform:translateX(0px);
+		opacity: 1;
+	}	
+	75% {
+		transform: translateX(-120px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0px);
+		opacity: 0.8;
+	}
+}
+
+h1 {
+	max-width: 100%;
+	max-height: 100px;
+	background: red;
+	color: white;
+	animation-name: example;
+	animation-delay: 1s;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	text-align: center;
+	float: none;
+}
+
+img {
+	max-width: 100%;
+	float: left;
+}
+
+.row .imgs {
+	max-width: 33.33%;
+}
+
+.imgs {
+	width: 100%;
+}
+
+.imgs img {
+	opacity: 0.5;
+	padding: 5px;
+}
+
+.imgs img:hover {
+	opacity: 1;
+}
+
+div .cre {
+	float: right;
+}
+
+p {
+	animation-name: cre;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+	max-width: 100%;
+}

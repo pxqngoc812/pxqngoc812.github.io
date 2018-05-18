@@ -22,15 +22,12 @@ img {
 
 .rotate-left {
 	width: 48%;
-	transform: rotate(-7deg);
-	position:  absolute;
+	transform: rotate(-7deg) translate(50%);
 }
 
 .rotate-right {
 	width: 48%;
-	position: absolute;
-	transform: rotate(7deg);
-	top: 1100%;
+	transform: rotate(7deg) translate(50%);
 }
 
 .images {
@@ -47,10 +44,8 @@ img {
 }
 
 .back {
-		box-shadow: 12px 12px 6px indianred;
-		padding: 10px 10px 0px 10px;
-		background-color:  white;
-		border: 1px solid white;
-		position: absolute;
-		left: 25%;
+	box-shadow: 12px 12px 6px indianred;
+	padding: 10px 10px 0px 10px;
+	background-color:  white;
+	border: 1px solid white;
 }

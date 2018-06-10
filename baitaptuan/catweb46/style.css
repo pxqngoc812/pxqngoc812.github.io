@@ -1,0 +1,205 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.header {
+	background-image: url("img/banner.jpg");
+	background-size: cover;
+	height: 600px;
+}
+
+.menu {
+	background-color: grey;
+	height: 70px;
+	padding: 0 50px;
+	position: relative;
+}
+
+.menu-logo {
+	width: 50%;
+	float: left;
+}
+
+.menu-logo a img {
+	padding: 20px 0;
+}
+
+.menu-link {
+	width: 50%;
+	float: left;
+	padding: 10px 0;
+}
+
+.menu-link a {
+	text-decoration: none;
+	padding: 10px 10px;
+	color: white;
+}
+
+.menu-link a p {
+	display: inline-block;
+}
+
+.active {
+	border: 2px solid #4bcaff;
+	color: #4bcaff!important;
+}
+
+.menu-link a:hover {
+	border-bottom: 2px solid #4bcaff;
+}
+
+.header-bottom {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+}
+
+h2.grey-background-top {
+    margin-left:  120px;
+}
+
+h2.grey-background-bottom {
+    display:  block!important;
+}
+
+.header-bottom h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	background-color: grey;
+	display: inline;
+	width: 100%;
+	font-size: 33px;
+	padding: 6px 12px;
+}
+
+.services {
+	background-color: #4bcaff;
+	padding: 30px 100px;
+}
+
+.services-text {
+	color: white;	
+	display: inline;
+
+}
+
+.white-border {
+	border-top: 1px white solid;
+	margin-right: 1100px;
+	margin-bottom: 20px;
+}
+
+.text {
+	width: 25%;
+	float: left;
+	background-color: #4bcaff;
+	color: white;
+}
+
+.text p {
+	line-height: 18px;
+	font-size: 14px;
+}
+
+.portfolio {
+	padding: 0 50px;
+}
+
+.portfolio a {
+	text-decoration: none;
+}
+
+.portfolio-header {
+	margin-bottom: 30px;
+}
+
+.portfolio-top {
+	width: 50%;
+	float: left;
+}
+
+.grey-border {
+	border-top: 1px grey solid;
+	margin-right: 530px;
+}
+
+.portfolio-text h2 {
+	color: grey;
+	margin-bottom: 0;
+}
+
+.portfolio-menu {
+	width: 50%;
+	float: left;
+	margin-top: 20px;
+}
+
+.portfolio-menu a {
+	display: inline-block;
+	color: grey;
+	padding: 5px 15px;
+}
+
+.portfolio-menu a:hover {
+	border-bottom: 2px #4bcaff solid;
+}
+
+.portfolio-menu a p {
+	margin: 0;
+}
+
+.row img {
+	width: 25%;
+	float: left;
+	display: inline-block;	
+}
+
+.row .image img {
+	padding: 10px;
+}
+
+.image {
+  position: relative;
+}
+
+.mount-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.plus {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.image:hover .plus {
+  width: 100%;
+}
+
+.plus-symbol {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

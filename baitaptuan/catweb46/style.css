@@ -160,9 +160,7 @@ h2.grey-background-bottom {
 }
 
 .row img {
-	width: 25%;
-	float: left;
-	display: inline-block;	
+	width: 100%;
 }
 
 .row .image img {
@@ -171,6 +169,8 @@ h2.grey-background-bottom {
 
 .image {
   position: relative;
+  width: 25%;
+  float: left;
 }
 
 .mount-img {

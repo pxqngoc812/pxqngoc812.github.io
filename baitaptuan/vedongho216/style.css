@@ -138,8 +138,8 @@ span {
 .small-clock-1 {
     border-radius: 50%;
     background-color: gray;
-    width: 100px;
-    height: 100px;
+    width: 25%;
+    height: 25%;
     position: absolute;	
     border: 1px solid white;
     top: 50%;
@@ -207,8 +207,8 @@ span {
 .small-clock-2 {
 	border-radius: 50%;
     background-color: gray;
-    width: 100px;
-    height: 100px;
+    width: 25%;
+    height: 25%;
     position: absolute;	
     border: 1px solid white;
     top: 65%;
@@ -218,8 +218,8 @@ span {
 .small-clock-3 {
 	border-radius: 50%;
     background-color: gray;
-    width: 100px;
-    height: 100px;
+    width: 25%;
+    height: 25%;
     position: absolute;	
     border: 1px solid white;
     top: 50%;

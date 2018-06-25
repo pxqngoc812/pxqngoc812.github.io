@@ -1,0 +1,227 @@
+.clock {
+    border-radius: 50%;
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+    position: relative;	
+}
+
+.number {
+	color: black;
+}
+
+span {
+	position: absolute;
+}
+
+.number-top {
+	left: 50%;
+	margin-top: 5px;
+}
+
+.number-right {
+	right: 0;
+	top: 50%;
+	margin-right: 5px; 
+}
+
+.number-bottom {
+	bottom: 0;
+	left: 50%;
+	margin-bottom: 5px;
+}
+
+.number-left {
+	top: 50%;
+	margin-left: 5px;
+}
+
+.icon {
+	width: 5%;
+    height: 0.5%;
+	background-color: black;
+	position: absolute;
+}
+
+.min5 {
+    transform: rotate(120deg);
+    left: 70%;
+    top: 10%;
+}
+
+.min10 {
+    transform: rotate(150deg);
+    left: 90%;
+    top: 30%;
+}
+
+.min20 {
+    left: 90%;
+    top: 70%;
+    transform: rotate(30deg);
+}
+
+.min25 {
+    left: 70%;
+    top: 90%;
+    transform: rotate(60deg);
+}
+
+.min35 {
+    top: 90%;
+    left: 25%;
+    transform: rotate(120deg);
+}
+
+.min40 {
+    top: 70%;
+    left: 5%;
+    transform: rotate(150deg);
+}
+
+.min50 {
+    top: 30%;
+    left: 5%;
+    transform: rotate(30deg);
+}
+
+.min55 {
+    top: 10%;
+    left: 25%;
+    transform: rotate(60deg);
+}
+
+.center {
+    position:  absolute;
+    height: 1%;
+    width: 1%;
+    border-radius: 50%;
+    background-color: black;
+    top: 50%;
+    left:  50%;
+    margin: 0 0 4px 3px;
+}
+
+.h-hand {
+    width:  0.5%;
+    height: 25%;
+    background-color: black;
+    position:  absolute;
+    top: 50%;
+    left:  50%;
+    margin: 0 0 4px 4px;
+    z-index: 10;
+}
+
+.m-hand {
+    width: 0.5%;
+    height: 40%;
+    background-color:  black;
+    position:  absolute;
+    left:  50%;
+    top: 11%;
+    margin: 0 0 4px 4px;
+}
+
+.s-hand {
+    height: 60%;
+    width:  0.5%;
+    background-color:  black;
+    position:  absolute;
+    left: 40%;
+    top: 31%;
+    transform: rotate(45deg);
+    margin: 0 0 4px 2px;
+    z-index: 10;
+}
+
+.small-clock-1 {
+    border-radius: 50%;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    position: absolute;	
+    border: 1px solid white;
+    top: 50%;
+    left: 10%;
+}
+
+.small {
+	font-size: 10px;
+}
+
+.small-bottom {
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 3px;
+}
+
+.small-top {
+    left: 45%;
+    margin-top: 3px;
+}
+
+.small-right {
+    top: 45%;
+    right: 0;
+    margin-right: 3px;
+}
+
+.small-left {
+    top: 45%;
+    left: 0;
+    margin-left: 3px;
+}
+
+.small-h-hand {
+    width:  0.5%;
+    height: 25%;
+    background-color: black;
+    position:  absolute;
+    top: 50%;
+    left:  45%;
+    margin: 0 0 4px 4px;
+}
+
+.small-m-hand {
+    width: 0.5%;
+    height: 40%;
+    background-color:  black;
+    position:  absolute;
+    left:  45%;
+    top: 20%;
+    margin: 0 0 4px 4px;
+}
+
+.small-s-hand {
+    height: 60%;
+    width:  0.5%;
+    background-color:  black;
+    position:  absolute;
+    left: 40%;
+    top: 31%;
+    transform: rotate(45deg);
+    margin: 0 0 4px 2px;
+}
+
+.small-clock-2 {
+	border-radius: 50%;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    position: absolute;	
+    border: 1px solid white;
+    top: 65%;
+    left: 37%;
+}
+
+.small-clock-3 {
+	border-radius: 50%;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    position: absolute;	
+    border: 1px solid white;
+    top: 50%;
+    left: 65%;
+}

@@ -1,0 +1,45 @@
+<pre>
+<script>
+// bai 1:
+function printTriangle(n) {
+	if(n < 3) {
+		return "Tam giac qua nho";
+	}
+	else {
+		for(let i = 1; i <= n; i++) {
+			for(let j = 1; j <= i; j++) {
+				document.write("* ");
+			}
+			document.write("<br>");
+		}
+	}		
+}
+
+// bai 2:
+function printEmptyRectangle(a,b) {
+	if (a < 4 && b < 4) {
+		return "Hinh chu nhat qua nho";
+	}
+	else {
+		for(let i = 1; i <= b; i++) {
+			for(let j = 1; j <= a; j++) {
+				if(i > 1 && i < b && j > 1 && j < a) {
+					document.write("&nbsp&nbsp");
+				}
+				else {
+					document.write("&nbsp*");
+				}
+			}
+			document.write("<br>");
+		}
+	}
+}
+printEmptyRectangle(5,3);
+
+// bai 3:
+function specialTriangle(n) {
+	
+}
+
+</script>
+</pre>

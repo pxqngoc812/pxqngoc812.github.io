@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	color: white;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
+li {
+	display: inline;
+	float: left;
+	padding: 8px;
+
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 16px;
+}
+.name {
+	float: left;
+	width: 50%;
+}
+.link {
+	float: left;
+	width: 50%;
+}
+.menu {
+	min-height: 80px;
+	background-color: black;
+	padding: 0 50px;
+	max-width: 100%;
+}
+
+.header-logo {
+	background-image: url(img/small_logo.png);
+	height: 27px;
+	width: 79px;
+	float: left;
+	margin: 26px;
+	margin-left: 0;
+}
+
+.content-1 {
+	background-image: url(img/background.png);
+	padding: 0 50px;
+	height: 500px;
+}
+
+.big-logo {
+	height: 60px;
+	width: 175px;
+	background-image: url(img/logo.png);
+	margin-top: 30px;
+}
+
+.white-text {
+	color: white;
+	margin: 15px 0;
+}
+
+.white-button {
+	background: none;
+	color: white;
+	height: 45px;
+	width: 150px;
+	border: 1px solid white;
+}
+
+.white-button:hover {
+	background-color: white;
+	color: black;
+}	
+
+.content-1-left {
+	float: left;
+	width: 50%;
+}
+
+.login-box {
+	width: 50%;
+	float: right;
+	padding: 90px 130px;
+}
+
+.orange-button {
+	background-color: orange;
+	color: white;
+	height: 45px;
+	width: 100%;
+	text-align:  center;
+	border: 1px solid orange;
+	border-radius: 0 0 7px 7px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+input [type="text"] {
+	width: 100%;
+	border: 3px solid lightgrey;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 0;
+    height: 50px;
+
+}

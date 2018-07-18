@@ -11,6 +11,7 @@ html,body {
 	height: 70px;
 	background-color: #3377aa;
 	position: relative;
+	padding: 0 20px;
 }
 
 .menu-logo {
@@ -73,7 +74,7 @@ html,body {
 
 .schedule {
 	background-color: #3377aa;
-	padding-bottom: 10px;
+	padding: 0 20px 10px 20px;
 }
 
 .big-text {
@@ -94,7 +95,7 @@ html,body {
 }
 
 .speaker {
-	padding-bottom: 10px;
+	padding: 0 20px 10px 20px;
 }
 
 .speaker-img {
@@ -127,6 +128,7 @@ html,body {
 
 .library {
     background-color: #ed1c24;
+    padding: 0 20px;
 }
 
 .row {

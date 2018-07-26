@@ -11,7 +11,7 @@ html,body {
 	height: 70px;
 	background-color: #3377aa;
 	position: relative;
-	padding: 0 20px;
+	padding: 0 10%;
 }
 
 .menu-logo {
@@ -49,9 +49,25 @@ html,body {
 	width:  100%;
 	height: 600px;
 	display: inline-block;
-	padding: 40px 20px 0 20px;
+	padding: 40px 10% 0 10%;
 	background-image: url('img/lego-background.jpg');
 	background-size: cover;
+}
+
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+}
+
+.top-text {
+    display: inline-block;
+    text-align: left;
+    background-color: #64777c;
+    padding: 8px;
+    color: white;
 }
 
 .left {
@@ -74,7 +90,7 @@ html,body {
 
 .schedule {
 	background-color: #3377aa;
-	padding: 0 20px 10px 20px;
+	padding: 0 10% 10px 10%;
 }
 
 .big-text {
@@ -91,21 +107,27 @@ html,body {
 }
 
 .white {
+	text-decoration: none;
 	color: white;
 }
 
+span {
+	padding-right: 20px;	
+}
+
 .speaker {
-	padding: 0 20px 10px 20px;
+	padding: 0 10% 10px 10%;
 }
 
 .speaker-img {
-	width: 50%;
+	width: 25%;
 	float: left;
 	padding: 20px;
 }
 
 .portrait {
-	opacity: 0.3;
+	border-radius: 20px;
+	opacity: 0.5;
 	transition: 0.5s ease;
 }
 
@@ -128,7 +150,7 @@ html,body {
 
 .library {
     background-color: #ed1c24;
-    padding: 0 20px;
+    padding: 0 10%	;
 }
 
 .row {
@@ -138,7 +160,7 @@ html,body {
 .model {
 	width: 50%;
 	float: left;
-	padding: 15px;
+	padding: 20px 10px;
 }
 
 .model-name {
@@ -148,10 +170,31 @@ html,body {
 .zoom {
 	width: 100%;
 	float: left;
-	transition: transform 0.2s;
 	padding-bottom: 25px;
 }
 
-.zoom:hover {
-	transform: scale(1.2);
+.signup-btn {
+	margin: auto;
+}
+
+.signup {
+	font-size: 20px;
+	background-color: #ed1c24;
+	padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: auto;
+    
+}
+
+iframe {
+	width: 100%;
+}
+
+.map {
+	padding: 10px 10%;
+}
+
+.signup-btn {
+	padding: 10px 10%;
 }

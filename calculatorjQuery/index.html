@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="utf8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input class="input-blank" type="text" name="input-text" id="res" placeholder="Input" readonly>
+
+        <div class="row">
+            <button class="top-button" onclick="add(this)" id="plus" value="+">&plus;</button>
+            <button class="top-button" onclick="add(this)" id="minus" value="-">&minus;</button>
+            <button class="top-button" onclick="add(this)" id="multi" value="*">&times;</button>
+            <button class="top-button" onclick="add(this)" id="divide" value="/">&divide;</button>
+        </div>
+
+        <div class="row">
+            <button class="button" onclick="add(this)" id="seven" value="7">7</button>
+            <button class="button" onclick="add(this)" id="eight" value="8">8</button>
+            <button class="button" onclick="add(this)" id="nine" value="9">9</button>
+            <button class="button" onclick="clear1()" id="delete" value="">&#10062;</button>
+        </div>
+
+        <div class="row">
+            <button class="button" onclick="add(this)" id="four" value="4">4</button>
+            <button class="button" onclick="add(this)" id="five" value="5">5</button>
+            <button class="button" onclick="add(this)" id="six" value="6">6</button>
+            <button class="button" onclick="add(this)" id="percent" value="%">&percnt;</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="add(this)" id="one" value="1">1</button>
+            <button class="button" onclick="add(this)" id="two" value="2">2</button>
+            <button class="button" onclick="add(this)" id="three" value="3">3</button>
+            <button class="button" onclick="square()" id="square" value="&sup2;">x&sup2;</button>
+        </div>
+
+        <div class="row">
+            <button class="button" onclick="add(this)" id="zero" value="0">0</button>
+            <button class="button" onclick="add(this)" id="dot" value=".">.</button>
+            <button class="button" onclick="clearall()" id="clear-all" value=" ">AC</button>
+            <button class="button" onclick="equal()" id="equal" value="=">&equals;</button>
+        </div>
+    </div>
+
+    <div class="change-theme">
+        <button class="change" onclick="changeTheme()">Change Theme</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

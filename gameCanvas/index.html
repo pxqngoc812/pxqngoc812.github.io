@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script>
+    var gamePiece;
+
+    function startGame() {
+        gameArea.start();
+        gamePiece = new component()
+    }
+
+    var gameArea = {
+        canvas: document.createElement("canvas"),
+        start: function() {
+            this.canvas.width = 500;
+            this.canvas.height = 300;
+            this.canvas = this.canvas.getContext("2d");
+            document.body.insertBefore(this.canvas, document.body.firstChild);
+        }
+    }
+
+    function component(width, height, x, y, color) {
+        this.width = width;
+        this.height = height;
+        this.x = x;
+        this.y = y;
+
+    }
+</script>    
+</body>
+</html>

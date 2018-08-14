@@ -7,7 +7,7 @@ shuffle(photoarrx2);
 
 function addPhoto() {
     for(var i=0; i<photoarrx2.length; i++) {
-        photo += '<div class="card" onClick="flipp(this)" data-name="'+photoarrx2[i]+'"><div class="back"><img src="img/back.gif"></div><div class="front"><img src="img/'+photoarrx2[i]+'.jpg"></div></div>';
+        photo += '<div class="grid"><div class="card" onClick="flipp(this)" data-name="'+photoarrx2[i]+'"><div class="back"><img src="img/back.gif"></div><div class="front"><img src="img/'+photoarrx2[i]+'.jpg"></div></div></div>';
     }
     $(".content").html(photo);
 }
@@ -40,23 +40,25 @@ function flipp(card) {
     if (!currentCard) {
         currentCard = $(card);
         currentCard.css("pointer-events","none")
-        console.log("1");
+        console.log(currentCard.attr('data-name'));
     }
     else {
         if(currentCard.attr('data-name') != $(card).attr('data-name')) {
             // 2 card khac nhau
-            
-            console.log(currentCard.attr('data-name'));
-            console.log($(card).attr('data-name'));
+            console.log("khac");
 
             setTimeout(function(){
+                console.log(currentCard.attr('data-name'));
+                console.log($(card).attr('data-name'));
+
                 currentCard.toggleClass("flip");
                 $(card).toggleClass("flip");
-                currentCard = null;
                 currentCard.css("pointer-events","auto")
-            }, 500);  
+                currentCard = null;
+                
+            }, 500);
+            
             currentCard.css("pointer-events","auto")
-
         }
         
         else {

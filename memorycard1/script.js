@@ -37,6 +37,7 @@ addPhoto();
 
 function flipp(card) {
     $(card).toggleClass("flip");
+    $(card).css("pointer-events","none");
     if (!currentCard) {
         currentCard = $(card);
         currentCard.css("pointer-events","none")
@@ -53,12 +54,17 @@ function flipp(card) {
 
                 currentCard.toggleClass("flip");
                 $(card).toggleClass("flip");
-                currentCard.css("pointer-events","auto")
                 currentCard = null;
-                
+                // $('.card').css("pointer-events","auto")                
             }, 500);
-            
-            currentCard.css("pointer-events","auto")
+
+            setTimeout(function(){      // disable pointer 1s
+                $('.card').css("pointer-events","auto")        
+            }, 1000);
+            $('.card').css("pointer-events","none");
+
+            $('#wrong')[0].play();
+            // currentCard.css("pointer-events","none")
         }
         
         else {
@@ -70,7 +76,9 @@ function flipp(card) {
                 $(card).css("opacity", "0");
                 currentCard.css("opacity", "0");
                 currentCard = null;
-            }, 250);
+            }, 500);
+
+            $('#correct')[0].play();
 
             console.log("giong");
         }

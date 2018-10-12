@@ -7,7 +7,7 @@ shuffle(photoarrx2);
 
 function addPhoto() {
     for(var i=0; i<photoarrx2.length; i++) {
-        photo += '<div class="grid"><div class="card" onClick="flipp(this)" data-name="'+photoarrx2[i]+'"><div class="back"><img src="img/back.gif"></div><div class="front"><img src="img/'+photoarrx2[i]+'.jpg"></div></div></div>';
+        photo += '<div class="grid"><div class="card" onClick="flipp(this)" data-name="'+photoarrx2[i]+'"><div class="back"><img src="img/cardback.jpg"></div><div class="front"><img src="img/'+photoarrx2[i]+'.jpg"></div></div></div>';
     }
     $(".content").html(photo);
 }
